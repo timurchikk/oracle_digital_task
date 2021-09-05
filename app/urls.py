@@ -13,3 +13,4 @@ urlpatterns = [
     path('delete_question/<int:pk>/', DeleteQuestionView.as_view()),
     path('list_create_user_questions/', ListCreateUserQuestionsView.as_view()),
 ]
+
